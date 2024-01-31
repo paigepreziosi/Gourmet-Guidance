@@ -4,4 +4,8 @@ router.get('/', async (req, res) => {
   res.render('all');
 });
 
+router.get('/signup', async (req, res) => {
+  res.render('/layouts/main');
+});
+
 module.exports = router;
