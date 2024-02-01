@@ -25,9 +25,13 @@
     <div class="nav-wrapper">
       <a class="brand-logo center">Logo</a>
       <ul class="left hide-on-med-and-down">
+        {{!-- {{#if logged_in}} --}}
+        {{!-- <li><a href="/logout">Logout</a></li> --}}
+        {{!-- {{else}} --}}
         <li class="active"><a href="/signup">Sign Up</a></li>
         <li><a href="/login">Login</a></li>
       </ul>
+      
     </div>
   </nav>
 </header>
@@ -37,7 +41,7 @@
   <div class="card-body">
     <p class="card-title">Our Mission Statement</p>
     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <button href="/login" id="btn">Start your Journey</button>
+    <button href="/signup" id="btn">Start your Journey</button>
   </div>
 </div>
 </body>
