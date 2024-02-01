@@ -1,8 +1,8 @@
 const sequelize = require('../config/connection');
-const { Chef, Restaurant } = require('../models');
+const { Store, Menu } = require('../models');
 
-const chefData = require('./chefData.json');
-const restaurantData = require('./restaurantData.json')
+const storeData = require('./storeData.json');
+const menuData = require('./menuData.json')
 
 const seedDatabase = async () => {
     await sequelize.sync({ force: true });
