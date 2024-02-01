@@ -4,8 +4,24 @@ router.get('/', async (req, res) => {
   res.render('all');
 });
 
-router.get('/signup', async (req, res) => {
-  res.render('/layouts/main');
+router.get('/login', (req, res) => {
+
+  // if (req.session.logged_in) {
+  //   res.redirect('/');
+  //   return;
+  // }
+
+  res.render('login');
+});
+
+router.get('/signup', (req, res) => {
+ 
+  // if (req.session.logged_in) {
+  //   res.redirect('/');
+  //   return;
+  // }
+
+  res.render('signUp');
 });
 
 module.exports = router;
