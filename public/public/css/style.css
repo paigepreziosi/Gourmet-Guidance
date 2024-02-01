@@ -1,23 +1,86 @@
 :root {
-    --primary: #389393;
-    --secondary: #f5a25d;
-    --tertiary: #fa7f72;
-    --quatrinary: #6c6b67;
-    --light: #ebebeb;
-    --dark: #182c23;
-    --error: rgb(228, 46, 1);
-    --border-radius: 0.3rem;
+  --a: #000000;
+  --b: #C5bbad;
+  --c: #e7e2da;
+  --d: #ffffff;
+  --e: #e7e8e7;
   }
-  
+
+/*Header*/
+
+.navbar {
+  background-color: #000000;
+  margin-bottom: 150px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav-wrapper {
+  background-color: #000000;
+}
+
+/*Body*/
+
 body {
   background-image: url("hermes-rivera-OzBLe_Eg1mg-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.card {
+  height: 40%;
+  top: 30%;
+  bottom: 30%;
+  width: 50%;
+  display: flex;
+  left: 25%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.card-body {
+  font-size: 40px;
+  background-color: #000000;
+}
+
+p {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+p.card-title {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+#btn {
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+
+/*Footer*/
+
 footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Roboto Condensed', sans-serif;
 }
+
+.container {
+  text-align: center;
+}
+
+
+
+
+
+
   
