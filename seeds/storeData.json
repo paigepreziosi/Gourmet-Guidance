@@ -1,0 +1,26 @@
+[
+    {
+        "storename": "The Crown Garden",
+        "chef_name": "Chef Sebastian",
+        "description":
+         "Indulge your palate in an exquisite culinary journey as you dine in elegance at our luxurious and sophisticated fine dining establishment.",
+        "eta": "55 minutes",
+        "menu_id": 1
+    },
+    {
+        "storename": "Pizza Planet",
+        "chef_name": "Chef Sid",
+        "description": 
+        "Savor every cheesy bite and experience the true taste of Italy at our vibrant pizza restaurant, where thin, crispy crusts, fresh toppings, and an inviting ambiance transport you to a culinary paradise.",
+        "eta": "20 minutes",
+        "menu_id": 2
+    },
+    {
+        "storename": "Flapjack Junction",
+        "chef_name": "Chef Estelle",
+        "description": 
+        "Indulge in a delightful morning experience at our cozy breakfast restaurant, where mouth-watering pancakes, sizzling bacon, and steaming cups of coffee bring comfort and joy to your plate",
+        "eta": "35 minutes",
+        "menu_id": 3
+    } 
+]
