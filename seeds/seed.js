@@ -1,5 +1,5 @@
 const sequelize = require('../config/connection');
-const { Store, Menu } = require('../models');
+const { Store, User, Menu } = require('../models');
 
 const storeData = require('./storeData.json');
 const menuData = require('./menuData.json')
@@ -7,11 +7,25 @@ const menuData = require('./menuData.json')
 const seedDatabase = async () => {
     await sequelize.sync({ force: true });
   
-    await User.bulkCreate(userData, {
+    const users = await User.bulkCreate(userData, {
       individualHooks: true,
       returning: true,
     });
+
+    for (const menu of menuData) {
+      await Menu.create({
+        ...menu,
+      });
+    }
+  
+    for (const store of storeData) {
+      await Store.create({
+        ...store,
+      });
+    }
   
     process.exit(0);
   };
   seedDatabase();
+
+module.exports = seedDatabase;
