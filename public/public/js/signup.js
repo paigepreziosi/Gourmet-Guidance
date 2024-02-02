@@ -1,12 +1,13 @@
 // Sign up form 
 const signupFormHandler = async (event) => {
     event.preventDefault();
-    hideSignUpAlert();
+    // hideSignUpAlert();
 
     const username = document.querySelector('#username-signup').value.trim();
     const password = document.querySelector('#password-signup').value.trim();
   
-    if(!username || !password || password.length < 8) {signUpAlert()}
+    if(!username || !password || password.length < 8) 
+    // {signUpAlert()}
   
     if (username && password && password.length > 8) {
       const response = await fetch('/api/users', {
@@ -19,20 +20,20 @@ const signupFormHandler = async (event) => {
       if (response.ok) {
         document.location.replace('/');
       } else {
-        signUpAlert();
+        // signUpAlert();
       }
     }
   };
 
-  const signUpAlert = () => {
-    const signUpAlert = document.querySelector('#signUpAlert');
-    signUpAlert.style.display = 'block';
-  }
+  // const signUpAlert = () => {
+  //   const signUpAlert = document.querySelector('#signUpAlert');
+  //   signUpAlert.style.display = 'block';
+  // }
   
-  const hideSignUpAlert = () => {
-    const signUpAlert = document.querySelector('#signUpAlert');
-    signUpAlert.style.display = 'none';
-  }
+  // const hideSignUpAlert = () => {
+  //   const signUpAlert = document.querySelector('#signUpAlert');
+  //   signUpAlert.style.display = 'none';
+  // }
   
   document
     .querySelector('.signup-form')

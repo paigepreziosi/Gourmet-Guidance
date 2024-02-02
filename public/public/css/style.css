@@ -63,10 +63,11 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  height: rem;
   background-color: #000000;
   color: #ffffff;
   display: flex;
-  font-size: 20px;
+  font-size: 15px;
   flex-direction: row;
   font-family: 'Roboto Condensed', sans-serif;
 }
