@@ -1,7 +1,7 @@
 // Handles login
 const loginFormHandler = async (event) => {
     event.preventDefault();
-    hideLoginAlert();
+    // hideLoginAlert();
   
     // Collect values from the login form
     const username = document.querySelector('#username-login').value.trim();
@@ -18,23 +18,23 @@ const loginFormHandler = async (event) => {
       if (response.ok) {
         // If successful, redirect the browser to the home page
         // document.location = ('/');
-        document.location.replace('/');
+        document.location.replace('/home');
         // changed from this to render logout button on login not on next page load
       } else {
-        loginAlert();
+        // loginAlert();
       }
     }
   };
   
-  const loginAlert = () => {
-    const loginAlert = document.querySelector('#loginAlert');
-    loginAlert.style.display = 'block';
-  }
+  // const loginAlert = () => {
+  //   const loginAlert = document.querySelector('#loginAlert');
+  //   loginAlert.style.display = 'block';
+  // }
   
-  const hideLoginAlert = () => {
-    const loginAlert = document.querySelector('#loginAlert');
-    loginAlert.style.display = 'none';
-  }
+  // const hideLoginAlert = () => {
+  //   const loginAlert = document.querySelector('#loginAlert');
+  //   loginAlert.style.display = 'none';
+  // }
   
   document
     .querySelector('.login-form')

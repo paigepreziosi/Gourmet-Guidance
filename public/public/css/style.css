@@ -27,12 +27,9 @@ body {
 }
 
 .card {
-  height: 40%;
-  top: 30%;
-  bottom: 30%;
   width: 50%;
-  display: flex;
-  left: 25%;
+  margin: 0 auto;
+  text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -56,6 +53,7 @@ p.card-title {
   background-color: #ffffff;
   font-size: 20px;
   border-radius: 5px;
+  width: 20%;
 }
 
 
@@ -65,11 +63,11 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  height: rem;
   background-color: #000000;
   color: #ffffff;
   display: flex;
-  font-size: 20px;
-  display: flex;
+  font-size: 15px;
   flex-direction: row;
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -77,6 +75,63 @@ footer {
 .container {
   text-align: center;
 }
+
+/* Shared */
+
+.btn {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Login */
+
+.login {
+  color: #ffffff;
+  background-color:#000000;
+  text-align: center;
+  width: 50%;
+  font-family: 'Roboto Condensed', sans-serif;
+  border: solid 20px #000000;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#password-login {
+   background-color: #ffffff;
+   border-radius: 5px;
+}
+
+#username-login {
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+/* Sign Up */
+
+.signup {
+  color: #ffffff;
+  background-color:#000000;
+  text-align: center;
+  width: 50%;
+  font-family: 'Roboto Condensed', sans-serif;
+  border: solid 20px #000000;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#password-signup {
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+#username-signup {
+ background-color: #ffffff;
+ border-radius: 5px;
+}
+
+
 
 
 

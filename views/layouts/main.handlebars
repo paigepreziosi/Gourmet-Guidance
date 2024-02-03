@@ -25,9 +25,9 @@
     <div class="nav-wrapper">
       <a class="brand-logo center">Logo</a>
       <ul class="left hide-on-med-and-down">
-        {{!-- {{#if logged_in}} --}}
+        {{#if logged_in}}
         <li><a href="/logout">Logout</a></li>
-        {{!-- {{else}} --}}
+        {{else}}
         <li class="active"><a href="/signup">Sign Up</a></li>
         <li><a href="/login">Login</a></li>
       </ul>
@@ -37,16 +37,38 @@
 </header>
 
 <body>
-  <div class="card text-center">
+  {{/if}}
+  {{{ body }}}
+  {{!-- <div class="card text-center">
   <div class="card-body">
     <p class="card-title">Our Mission Statement</p>
     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
     <button href="/signup" id="btn">Start your Journey</button>
   </div>
-</div>
+</div> --}}
+
+  <main>
+  {{#if logged_in}}
+    <script src="/js/logout.js"></script>
+  {{/if}}
+  </main>
 </body>
 
+{{!-- <body>
+{{#if logged_in}}
+      <li><a href="/" id="logout">Logout</a></li>
+      {{else}}
+      <li><a href="/login">Login</a></li>
+      <li><a href="/signup">Sign Up</a></li> 
+      {{/if}}
+  <main>
+    {{{ body }}}
 
+  {{#if logged_in}}
+    <script src="/js/logout.js"></script>
+  {{/if}}
+  </main>
+</body> --}}
 
 <footer>
   <div class="container">
