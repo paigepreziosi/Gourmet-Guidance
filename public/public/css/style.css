@@ -37,11 +37,18 @@ body {
   margin: 0 auto;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
+  border-radius: 10px; /* You can adjust the value to control the roundness */
+  
+ 
 }
 
 .card-body {
   font-size: 40px;
   background-color: #293040;
+  border-radius: 10px; 
+  border: 4px solid #e2ceb6;
+  padding: 15px; 
+  
 }
 
 p {
@@ -55,10 +62,11 @@ p.card-title {
 }
 
 #btn {
-  color: #000000;
-  background-color: #ffffff;
+  color: #293040;
+  background-color: #b88e2d;
   font-size: 20px;
   border-radius: 5px;
+  padding: 10px;
   width: 20%;
 }
 
@@ -94,12 +102,16 @@ footer {
   color: #b88e2d;
   background-color:#293040;
   text-align: center;
-  width: 40%;
+  width: 30%;
   font-family: 'Roboto Condensed', sans-serif;
   border: solid 20px #293040;
-  width: 40%;
+  width: 30%;
   margin: 0 auto;
   text-align: center;
+  border-radius: 10px; 
+  border: 4px solid #e2ceb6;
+  padding: 15px; 
+  
 }
 
 #password-login {
@@ -116,19 +128,23 @@ footer {
 
 .signup {
   color: #b88e2d;
-  background-color: #293040;
+  background-color:#293040;
   text-align: center;
-  width: 40%;
+  width: 30%;
   font-family: 'Roboto Condensed', sans-serif;
   border: solid 20px #293040;
-  width: 40%;
+  width: 30%;
   margin: 0 auto;
   text-align: center;
+  border-radius: 10px; 
+  border: 4px solid #e2ceb6;
+  padding: 15px; 
 }
 
 #password-signup {
   background-color: #ffffff;
   border-radius: 5px;
+  
 }
 
 #username-signup {
