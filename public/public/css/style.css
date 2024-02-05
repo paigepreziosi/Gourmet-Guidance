@@ -1,21 +1,25 @@
 :root {
-  --a: #000000;
+  --a: #293040;
   --b: #C5bbad;
   --c: #e7e2da;
   --d: #ffffff;
   --e: #e7e8e7;
   }
 
-/*Header*/
+.brand-logo img {
+  width: 50px;
+  height: auto; 
+  margin-right: 10px; 
+}
 
 .navbar {
-  background-color: #000000;
+  background-color: #293040;
   margin-bottom: 150px;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
 .nav-wrapper {
-  background-color: #000000;
+  background-color: #293040;
 }
 
 /*Body*/
@@ -24,7 +28,9 @@ body {
   background-image: url("hermes-rivera-OzBLe_Eg1mg-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: scroll;
 }
+
 
 .card {
   width: 50%;
@@ -35,7 +41,7 @@ body {
 
 .card-body {
   font-size: 40px;
-  background-color: #000000;
+  background-color: #293040;
 }
 
 p {
@@ -63,11 +69,10 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: rem;
-  background-color: #000000;
+  background-color: #293040;
   color: #ffffff;
   display: flex;
-  font-size: 15px;
+  font-size: 12px;
   flex-direction: row;
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -79,20 +84,20 @@ footer {
 /* Shared */
 
 .btn {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #b88e2d;
+  color: #293040;
 }
 
 /* Login */
 
 .login {
-  color: #ffffff;
-  background-color:#000000;
+  color: #b88e2d;
+  background-color:#293040;
   text-align: center;
-  width: 50%;
+  width: 40%;
   font-family: 'Roboto Condensed', sans-serif;
-  border: solid 20px #000000;
-  width: 50%;
+  border: solid 20px #293040;
+  width: 40%;
   margin: 0 auto;
   text-align: center;
 }
@@ -110,13 +115,13 @@ footer {
 /* Sign Up */
 
 .signup {
-  color: #ffffff;
-  background-color:#000000;
+  color: #b88e2d;
+  background-color: #293040;
   text-align: center;
-  width: 50%;
+  width: 40%;
   font-family: 'Roboto Condensed', sans-serif;
-  border: solid 20px #000000;
-  width: 50%;
+  border: solid 20px #293040;
+  width: 40%;
   margin: 0 auto;
   text-align: center;
 }
@@ -130,7 +135,6 @@ footer {
  background-color: #ffffff;
  border-radius: 5px;
 }
-
 
 
 
