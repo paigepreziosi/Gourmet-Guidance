@@ -42,28 +42,19 @@ body {
   width: 40%;
   margin: 0 auto;
   text-align: center;
-<<<<<<< HEAD
-  border-radius: 10px;
-  margin-bottom: 50px;
-=======
   font-family: 'Roboto Condensed', sans-serif;
   border-radius: 10px; /* You can adjust the value to control the roundness */
   
  
->>>>>>> 1b6deac74edafae47f938eceeddea945ee633dc1
 }
 
 .card-body {
   font-size: 40px;
   background-color: #293040;
-<<<<<<< HEAD
-  border-radius: 10px;
-=======
   border-radius: 10px; 
   border: 4px solid #e2ceb6;
   padding: 15px; 
   
->>>>>>> 1b6deac74edafae47f938eceeddea945ee633dc1
 }
 
 .statement {
@@ -85,16 +76,8 @@ p.card-title {
   background-color: #b88e2d;
   font-size: 20px;
   border-radius: 5px;
-<<<<<<< HEAD
-  width: 30%;
-}
-
-.statement {
-  font-size: 20px;
-=======
   padding: 10px;
   width: 20%;
->>>>>>> 1b6deac74edafae47f938eceeddea945ee633dc1
 }
 
 .statement {
@@ -139,14 +122,10 @@ footer {
   width: 30%;
   margin: 0 auto;
   text-align: center;
-<<<<<<< HEAD
-  border-radius: 10px;
-=======
   border-radius: 10px; 
   border: 4px solid #e2ceb6;
   padding: 15px; 
   
->>>>>>> 1b6deac74edafae47f938eceeddea945ee633dc1
 }
 
 #password-login {
@@ -171,13 +150,9 @@ footer {
   width: 30%;
   margin: 0 auto;
   text-align: center;
-<<<<<<< HEAD
-  border-radius: 10px;
-=======
   border-radius: 10px; 
   border: 4px solid #e2ceb6;
   padding: 15px; 
->>>>>>> 1b6deac74edafae47f938eceeddea945ee633dc1
 }
 
 #password-signup {
@@ -212,7 +187,7 @@ footer {
 #search {
   background-color: #b88e2d;
   color: #293040;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 #inputName {
@@ -224,6 +199,10 @@ footer {
   flex-wrap: wrap;
   align-content: space-between;
   margin-bottom: 50px;
+}
+
+.p1 {
+  font-size: 12px;
 }
 
 footer {

@@ -36,34 +36,53 @@ document.getElementById("search").addEventListener('click',()=>{
 })
 
 
-function details(id){
+function details(id) {
     fetch(`https:www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`)
-    .then(res=>res.json())
-    .then(detail => {
-        let meal = detail.meals[0]
-        console.log(meal)
-        let details = document.getElementById("details")
-        details.innerHTML = ""
-        let detailsDiv = document.createElement("div")
-        let detailsInfo = `
-        <div class="card " style="width: 19rem;">
-            <img src="${meal.strMealThumb}" class="card-img-top" alt="...">
-            <div class="card-body ">
-                <h3 id="search" class="card-text">${meal.strMeal}</h3>
-                <h6 id="search">Ingredients</h6>
-                <ul>
-                    <li id="search">${meal.strArea}</li>
-                    <li id="search">${meal.strCategory}</li>
-                    <li id="search">${meal.strIngredient1}</li>
-                    <li id="search">${meal.strIngredient2}</li>
-                    <li id="search">${meal.strIngredient3}</li>
-                    <li id="search">${meal.strIngredient4}</li>
-                    <li id="search">${meal.strIngredient5}</li>
-                </ul>
-            </div>
-        </div>
-        `
-        detailsDiv.innerHTML = detailsInfo
-        details.appendChild(detailsDiv)
-    })
+        .then(res => res.json())
+        .then(detail => {
+            let meal = detail.meals[0]
+            console.log(meal)
+            let details = document.getElementById("details")
+            details.innerHTML = ""
+            let detailsDiv = document.createElement("div")
+            let detailsInfo = `
+                <div class="card " style="width: 19rem;">
+                    <img src="${meal.strMealThumb}" class="card-img-top" alt="...">
+                    <div class="card-body ">
+                        <h3 id="search" class="card-text">${meal.strMeal}</h3>
+                        
+                        <h6 id="search">Origin</h6>
+                        <ul>
+                            <li id="search">${meal.strArea}</li>
+                        </ul>
+
+                        <h6 id="search">Category</h6>
+                        <ul>
+                            <li id="search">${meal.strCategory}</li>
+                        </ul>
+
+                        <h6 id="search">Ingredients</h6>
+                        <ul id="ingredientsList">
+                            ${generateIngredientsList(meal)}
+                        </ul>
+                    </div>
+                </div>
+                <p1>${meal.strInstructions}</p1>
+            `
+            detailsDiv.innerHTML = detailsInfo
+            details.appendChild(detailsDiv)
+        })
+}
+
+function generateIngredientsList(meal) {
+    let ingredientsListHTML = "";
+    for (let i = 1; i <= 20; i++) {
+        let ingredient = meal[`strIngredient${i}`];
+        let measure = meal[`strMeasure${i}`];
+
+        if (ingredient) {
+            ingredientsListHTML += `<li>${measure} ${ingredient}</li>`;
+        }
+    }
+    return ingredientsListHTML;
 }
