@@ -66,6 +66,10 @@ body {
 >>>>>>> 1b6deac74edafae47f938eceeddea945ee633dc1
 }
 
+.statement {
+  text-align: center;
+}
+
 p {
   font-size: 40px;
   color: #ffffff;
