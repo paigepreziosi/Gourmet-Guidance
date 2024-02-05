@@ -1,6 +1,7 @@
 
 
-document.getElementById("button").addEventListener('click',()=>{
+
+document.getElementById("search").addEventListener('click',()=>{
     let inputValue = document.getElementById('inputName').value
     let details = document.getElementById("details")
     details.innerHTML = ""
