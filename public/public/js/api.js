@@ -5,7 +5,7 @@ document.getElementById("search").addEventListener('click',()=>{
     let inputValue = document.getElementById('inputName').value
     let details = document.getElementById("details")
     details.innerHTML = ""
-    fetch(`https:www.themealdb.com/api/json/v1/1/search.php?s=${inputValue}`)
+    fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${inputValue}`)
         .then(response => response.json())
         .then(data=> {
             const items = document.getElementById("items")
@@ -37,7 +37,7 @@ document.getElementById("search").addEventListener('click',()=>{
 
 
 function details(id) {
-    fetch(`https:www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`)
+    fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`)
         .then(res => res.json())
         .then(detail => {
             let meal = detail.meals[0]
