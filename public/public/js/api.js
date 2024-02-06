@@ -46,7 +46,7 @@ function details(id) {
             details.innerHTML = ""
             let detailsDiv = document.createElement("div")
             let detailsInfo = `
-                <div class="card " style="width: 19rem;">
+                <div class="card "style="width: 60%">
                     <img src="${meal.strMealThumb}" class="card-img-top" alt="...">
                     <div class="card-body ">
                         <h3 id="search" class="card-text">${meal.strMeal}</h3>
@@ -67,8 +67,11 @@ function details(id) {
                         </ul>
                     </div>
                 </div>
-                <p1>${meal.strInstructions}</p1>
-            `
+                <br>
+                <h2 class="instructions-heading">Instructions</h2>
+                <p1 class="instructions-text">${meal.strInstructions}</p1>
+<br>
+<br>`
             detailsDiv.innerHTML = detailsInfo
             details.appendChild(detailsDiv)
         })
@@ -81,7 +84,7 @@ function generateIngredientsList(meal) {
         let measure = meal[`strMeasure${i}`];
 
         if (ingredient) {
-            ingredientsListHTML += `<li>${measure} ${ingredient}</li>`;
+            ingredientsListHTML += `<li style="font-size: 18px; color:white;">${measure} ${ingredient}</li>`;
         }
     }
     return ingredientsListHTML;

@@ -16,16 +16,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 
-  <title>Document</title>
+  <title>Gourmet Guidance</title>
 </head>
-
+<body>
 <header>
   <nav class="navbar">
     <nav>
       <div class="nav-wrapper">
-        <a class="brand-logo center" href="#">
-          <img src="/public/assets/gourmetguidance.png" alt="Gourment Guidance">
-        </a>
       
       <ul class="left hide-on-med-and-down">
         {{#if logged_in}}
@@ -48,10 +45,12 @@
       <div>
     </div>
   </nav>
+
+  <h1><a class="brand-logo center" href="#">
+          <img src="/public/assets/gourmetguidance.png">
+        </a></h1>
 </header>
 
-
-<body>
   {{/if}}
   {{{ body }}}
   {{!-- <div class="card text-center">
