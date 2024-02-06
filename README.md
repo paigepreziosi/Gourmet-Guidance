@@ -1,11 +1,11 @@
 # Gourmet Guidance
 
-![alt text](</public/assets/Screenshot 2024-02-06 at 5.31.04 PM-1.png>)
-![alt text](</public/assets/Screenshot 2024-02-06 at 5.31.12 PM.png>)
-![alt text](</public/assets/Screenshot 2024-02-06 at 5.31.21 PM.png>)
-![alt text](</public/assets/Screenshot 2024-02-06 at 5.31.28 PM.png>)
-![alt text](</public/assets/Screenshot 2024-02-06 at 5.31.43 PM.png>)
-![alt text](</public/assets/Screenshot 2024-02-06 at 5.32.17 PM.png>)
+![alt text](<./public/assets/Screenshot 2024-02-06 at 5.31.04 PM-1.png>)
+![alt text](<./public/assets/Screenshot 2024-02-06 at 5.31.12 PM.png>)
+![alt text](<./public/assets/Screenshot 2024-02-06 at 5.31.21 PM.png>)
+![alt text](<./public/assets/Screenshot 2024-02-06 at 5.31.28 PM.png>)
+![alt text](<./public/assets/Screenshot 2024-02-06 at 5.31.43 PM.png>)
+![alt text](<./public/assets/Screenshot 2024-02-06 at 5.32.17 PM.png>)
 
 
 ## Table of Contents
