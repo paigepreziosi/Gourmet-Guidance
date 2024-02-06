@@ -31,15 +31,15 @@ WHEN I click on a menu from the nav bar
 THEN I am given a menu to look at and decide what I want to eat
 
 ## 4. Programs Used
-1.CSS
-2.Javascript
-3.Sequilze 
-4.Express-handlebars
-5.MySQL2
-6.MySQlWorkbench
-7.BCrypt
-8.ENV
-9.API: TheMealDB
+1. CSS
+2. Javascript
+3. Sequilze 
+4. Express-handlebars
+5. MySQL2
+6. MySQlWorkbench
+7. BCrypt
+8. ENV
+9. API: TheMealDB
 
 
 ## 5. Installation
