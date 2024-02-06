@@ -1,1 +1,77 @@
-# GroupProject2
+# Gourmet Guidance
+
+## Table of Contents
+1. Project Description
+2. User Story
+3. Acceptance Critera
+4. Programs Used
+5. Installation
+6. Usage
+7. Collaborators
+
+## 1. Project Description
+This app was created as a way for the user to create an account for an app that provides a quick and simple way to search up an ingredient, food category, keywood, or dish name to find a recipe. It also provides the user with a look at some famous menus. 
+
+## 2. User Story
+AS A person who is looking for something new to cook
+I WANT to be able to find a recipe to make based off of a dish or ingredient I input
+SO THAT I can try a new recipe for dinner
+
+AS A person who is hunrgy
+I WANT to be able to check out a featured menu
+SO THAT I can choose something to order for dinner
+
+## 3. Acceptance Criteria
+GIVEN I am looking for something to eat
+WHEN I login to Gourmet Guidance
+THEN I search an ingredient or dish name
+WHEN I click on the dish that interests me
+THEN I am given a picture of that dish, ingredients list, and instructions
+WHEN I click on a menu from the nav bar
+THEN I am given a menu to look at and decide what I want to eat
+
+## 4. Programs Used
+CSS
+Javascript
+Sequilze 
+Express-handlebars
+MySQL2
+MySQlWorkbench
+BCrypt
+.ENV
+API: TheMealDB
+
+
+## 5. Installation
+Create a .env file
+
+ENV Example:
+NAME_DB
+USER_DB
+PASSWORD_DB
+
+* npm install
+
+* npm nodemon server.js to confirm connection 
+
+http://localhost:3001/
+
+## 6. Usage
+
+Create an account with a username and password of your choice on the sign-up page.
+'Click' Start your Journey 
+'Click' Log-in here, or the Login button on the navigator bar. 
+Log-in to your account with the username and password you created on the sign-up page.
+Type in a food category, ingredient, or dish and 'click' Search. 
+'Click' on the photo of the dish you would like to learn more about. 
+Learn about the dish's origin, ingredients, and cooking instructions!
+
+## 7. Collaborators: 
+Joseph Vanzandt
+Kal Parker 
+Paige Preziosi
+
+## 8. Credits 
+https://github.com/JosephVz
+https://github.com/kalleepar
+https://github.com/paigepreziosi
