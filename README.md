@@ -67,11 +67,11 @@ Type in a food category, ingredient, or dish and 'click' Search.
 Learn about the dish's origin, ingredients, and cooking instructions!
 
 ## 7. Collaborators: 
-Joseph Vanzandt
-Kal Parker 
-Paige Preziosi
+1. Joseph Vanzandt
+2. Kal Parker 
+3. Paige Preziosi
 
 ## 8. Credits 
-https://github.com/JosephVz
-https://github.com/kalleepar
-https://github.com/paigepreziosi
+1. https://github.com/JosephVz
+2. https://github.com/kalleepar
+3. https://github.com/paigepreziosi
