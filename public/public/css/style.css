@@ -7,10 +7,17 @@
   }
 
 .brand-logo img {
-  width: 500px;
+  width: 400px;
   height: auto; 
   margin-right: 10px; 
 }
+
+.brand-logo1 img {
+  width: 100px;
+  height: auto; 
+  margin-right: 10px; 
+}
+
 
 .navbar {
   background-color: #293040;
