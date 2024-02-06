@@ -1,12 +1,12 @@
 # Gourmet Guidance
 
-![alt text](<./public/assets/Screenshot 2024-02-06 at 5.31.04 PM-1.png>)
-![alt text](<./public/assets/Screenshot 2024-02-06 at 5.31.12 PM.png>)
-![alt text](<./public/assets/Screenshot 2024-02-06 at 5.31.21 PM.png>)
-![alt text](<./public/assets/Screenshot 2024-02-06 at 5.31.28 PM.png>)
-![alt text](<./public/assets/Screenshot 2024-02-06 at 5.31.43 PM.png>)
-![alt text](<./public/assets/Screenshot 2024-02-06 at 5.32.17 PM.png>)
-
+![gourmetguidance](https://github.com/kalleepar/Gourmet-Guidance/assets/151070992/886840e4-18b4-4b90-986e-b898fe6b42fa)
+<img width="1699" alt="Screenshot 2024-02-06 at 5 31 04 PM" src="https://github.com/kalleepar/Gourmet-Guidance/assets/151070992/21e7ac99-4086-4096-8fca-52e250275bc3">
+<img width="1686" alt="Screenshot 2024-02-06 at 5 31 12 PM" src="https://github.com/kalleepar/Gourmet-Guidance/assets/151070992/7a5249cc-fdf3-4808-9d93-1d425468a76e">
+<img width="1703" alt="Screenshot 2024-02-06 at 5 31 21 PM" src="https://github.com/kalleepar/Gourmet-Guidance/assets/151070992/14b144bc-ff9c-4873-a018-315215e77e87">
+<img width="1693" alt="Screenshot 2024-02-06 at 5 31 28 PM" src="https://github.com/kalleepar/Gourmet-Guidance/assets/151070992/8266b6f7-8042-4562-8c95-699a03a277c5">
+<img width="1689" alt="Screenshot 2024-02-06 at 5 31 43 PM" src="https://github.com/kalleepar/Gourmet-Guidance/assets/151070992/d4e86114-b110-4cb4-9c87-50936724977a">
+<img width="1679" alt="Screenshot 2024-02-06 at 5 32 17 PM" src="https://github.com/kalleepar/Gourmet-Guidance/assets/151070992/2ad0a103-56fb-46b6-b92c-2603b0ab9451">
 
 ## Table of Contents
 1. Project Description
